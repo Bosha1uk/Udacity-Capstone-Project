@@ -42,8 +42,12 @@ Please see attached Data Dictionary for the meanings of the Data columns for eac
 
 # Step 5: Complete Project Write Up
 
-The data is planned to be updated on a daily basis. I plan in the future to run the data directly from Github which will allow my DAG to run on a daily schedule to pick up any changes made to any of the data files. The data files are kept here: https://github.com/JeffSackmann/tennis_atp
-https://github.com/JeffSackmann/tennis_wta
+The data is planned to be updated on a daily basis. I plan in the future to run the data directly from Github which will allow my DAG to run on a daily schedule to pick up any changes made to any of the data files. 
+
+The data files are kept here: 
+
+- ATP https://github.com/JeffSackmann/tennis_atp
+- WTA https://github.com/JeffSackmann/tennis_wta
 
 Running the data once a day is the most logical approach as matches are played on a daily basis for most Tournaments until a winner has been crowned.
 
