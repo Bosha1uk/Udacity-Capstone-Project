@@ -7,7 +7,7 @@ My Project is about gathering ATP (Mens) and WTA (Womens) Tennis data including 
 
 The end solution will provide a schema which allows users to extract data on players, matches, and tournaments including matches played in 2020, match performances in a given time period, and how a player's ranking has changed over time. 
 
-I have gathered this data from https://github.com/awesomedata/awesome-public-datasets#sports using both the ATP and WTA links. I will combine the datasets together. These datasets which involve both the ATP and WTA include:
+I have gathered this data from https://github.com/awesomedata/awesome-public-datasets#sports (special thanks to JeffSackmann for the data.) using both the ATP and WTA links. I will combine the datasets together. These datasets which involve both the ATP and WTA include:
 
 - A players dataset which gathers player information 
 - A rankings dataset which gathers a player's ranking over time (2020 only but room for further scope to increase dataload)
@@ -42,4 +42,14 @@ Please see attached Data Dictionary for the meanings of the Data columns for eac
 
 # Step 5: Complete Project Write Up
 
+The data is planned to be updated on a daily basis. I plan in the future to run the data directly from Github which will allow my DAG to run on a daily schedule to pick up any changes made to any of the data files. The data files are kept here: https://github.com/JeffSackmann/tennis_atp
+https://github.com/JeffSackmann/tennis_wta
+
+Running the data once a day is the most logical approach as matches are played on a daily basis for most Tournaments until a winner has been crowned.
+
+If the data was increased by 100x I would separate the matches and rankings table on a yearly/monthly basis.
+
+If the pipelines were run on a daily basis by 7am, I would use partition the matches and rankings tables to run specific dates.
+
+If the database needed to be accessed by 100+ people I would restrict the data for all files to only the last 12 months.
 
