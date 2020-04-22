@@ -34,6 +34,7 @@ Here is an outline of my data schema:
 
 Please see the data model on how these on connect together below:
 
+![](DataModel.PNG)
 
 # Step 4: Run ETL to Model the Data
 
