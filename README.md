@@ -22,6 +22,8 @@ The ATP Ranking data file had some entries which we not formatted properly so I 
 
 I have decided to use Apache Airflow to run data pipelines for this project. Please see the DAG Graph below:
 
+![](DAG%20Graph.PNG)
+
 Here is an outline of my data schema:
 
 - Matches Played Fact Table
@@ -32,7 +34,6 @@ Here is an outline of my data schema:
 
 Please see the data model on how these on connect together below:
 
-![](Data%20Model.PNG)
 
 # Step 4: Run ETL to Model the Data
 
