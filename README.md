@@ -16,11 +16,30 @@ I have gathered this data from https://github.com/awesomedata/awesome-public-dat
 
 # Step 2: Explore and Assess the Data
 
-
-
-![](Data%20Model.PNG)
+The ATP Ranking data file had some entries which we not formatted properly so I removed it from the file. In the players file, I have separated the birth date by gathering the year, month, and day.
 
 # Step 3: Define the Data Model
 
-Step 4: Run ETL to Model the Data
-Step 5: Complete Project Write Up
+I have decided to use Apache Airflow to run data pipelines for this project. Please see the DAG Graph below:
+
+![](DAG%20Graph.PNG)
+
+Here is an outline of my data schema:
+
+- Matches Played Fact Table
+- Matches Dimension Table
+- Players Dimension Table
+- Rankings Dimension Table
+- Tournaments Dimension Table
+
+Please see the data model on how these on connect together below:
+
+![](Data%20Model.PNG)
+
+# Step 4: Run ETL to Model the Data
+
+Please see attached Data Dictionary for the meanings of the Data columns for each Table.
+
+# Step 5: Complete Project Write Up
+
+
