@@ -1,4 +1,4 @@
 # Udacity-Capstone-Project
 My Udacity Data Engineering Nanodegree Capstone Project
 
-![](Data%20Model.png)
+![](Data%20Model.PNG)
